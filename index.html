@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Catcher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Color Catcher</h1>
+      <div id="game-info">
+        <span id="target-color">
+          Target Color: <span id="color-display">Red</span>
+        </span>
+        <span id="score">Score: 0</span>
+      </div>
+    </header>
+    <main id="game-area">
+      <!-- Objects will appear here -->
+    </main>
+    <footer>
+      <!-- Restart Button, initially hidden -->
+      <button id="restart-button" style="display: none" onclick="restartGame()">
+        Restart Game
+      </button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

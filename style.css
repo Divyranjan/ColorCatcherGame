@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#game-info {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#color-display {
+    font-weight: bold;
+    color: red;
+    /* Default target color */
+}
+
+/* Game Area Styling */
+#game-area {
+    width: 90%;
+    max-width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+}
+
+/* Restart Button Styling */
+#restart-button {
+    padding: 15px 30px;
+    /* Larger padding for a more clickable feel */
+    font-size: 1.2rem;
+    /* Slightly larger text */
+    color: #fff;
+    background-color: #28a745;
+    /* Vibrant green */
+    border: none;
+    border-radius: 10px;
+    /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    display: none;
+    /* Hidden by default */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+}
+
+#restart-button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+    transform: translateY(-3px);
+    /* Slight lift effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    /* Stronger shadow on hover */
+}
+
+#restart-button:active {
+    background-color: #1e7e34;
+    /* Even darker green on click */
+    transform: translateY(1px);
+    /* Button presses down */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow when clicked */
+}
+
+/* Game Object Styling */
+.game-object {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    /* Makes the objects circular */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.game-object:hover {
+    transform: scale(1.2);
+    /* Slightly enlarge when hovered */
+}
