@@ -18,12 +18,12 @@ The following technologies and tools were employed in the development of this pr
 Here are some snapshots of the game in action:
 
 1. **Game Interface**: Main gameplay area with objects and target color.
-   \assests\game_interface.png"
+   \assests\screenshots\game_interface.png"
    https://drive.google.com/file/d/1Oy0pQtLtI01nDLqffl54dr2tdHLQrARv/view?usp=sharing
   
 
 3. **Game Over Screen**: Alert with restart button.
-   \assests\game_play.png"
+   \assests\screenshots\game_play.png"
    https://drive.google.com/file/d/1jz5LCjgDuJDf5x68sQONfa9udvowyHO8/view?usp=sharing
 
 
