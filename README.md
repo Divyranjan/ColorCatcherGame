@@ -31,7 +31,7 @@ Here are some snapshots of the game in action:
 ## Video Demonstration
 Check out the game in action through this video demonstration:
 
-https://drive.google.com/file/d/11_zthfJLXyOMJKpjc-XADOvPvzwv3LOo/view?usp=sharing
+https://drive.google.com/file/d/1N-JCBKqppzos6dgyKFevNvlcNP1UWbC1/view?usp=sharing
 
 
 ## How to Run the Game Locally
